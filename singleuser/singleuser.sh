@@ -2,7 +2,7 @@
 
 NOTEBOOK_DIR=$HOME/analysis
 
-git clone $JPY_GITHUBURL $NOTEBOOK_DIR
+git clone $JPY_GITHUBURL $NOTEBOOK_DIR > $HOME/git.log
 
 jupyterhub-singleuser \
   --port=8888 \
